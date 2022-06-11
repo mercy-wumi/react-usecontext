@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
     return (
         <nav>
-            <Link to='/'>HomePage</Link>
-            <Link to='/useref'>useRef</Link>
-            <Link to='/usecontext'>useContext</Link>
+            <Link to='/react-usecontext'>HomePage</Link>
+            <Link to='/react-usecontext/useref'>useRef</Link>
+            <Link to='/react-usecontext/usecontext'>useContext</Link>
         </nav>
     )
 }

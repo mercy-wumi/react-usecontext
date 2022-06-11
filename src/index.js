@@ -12,9 +12,9 @@ root.render(
   <BrowserRouter>
     <React.StrictMode>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/useref' element={<UseRef />} />
-        <Route path='/usecontext' element={<UseContext />} />
+        <Route path='/react-usecontext' element={<App />} />
+        <Route path='/react-usecontext/useref' element={<UseRef />} />
+        <Route path='/react-usecontext/usecontext' element={<UseContext />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
